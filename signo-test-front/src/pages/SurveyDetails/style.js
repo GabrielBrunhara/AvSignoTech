@@ -71,6 +71,7 @@ export const InternDiv = Styled.div`
   height: ${(props) => props.$height}%;
   width: 100%;
   background: ${(props) => props.$randomBackground};
+  transition: height 0.5s ease;
 `;
 
 export const Total = Styled.p`
